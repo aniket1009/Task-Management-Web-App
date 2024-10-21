@@ -1,0 +1,118 @@
+.task-list-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header Styles */
+.task-list-card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 1.25rem;
+  border-bottom: 2px solid #0056b3;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list-card-header h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.task-list-card-header .btn {
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+}
+
+.task-list-card-header .btn:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Task List Item Styles */
+.task-list-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list-item:hover {
+  background-color: #e3e3e3;
+  transform: translateY(-2px);
+}
+
+.task-list-item .task-title {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+}
+
+.task-list-item .task-title:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.task-list-item .edit-btn {
+  color: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.task-list-item .edit-btn:hover {
+  color: white;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/* Empty State */
+.task-list-empty {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* General Spacing */
+.card-body {
+  padding: 1.5rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.empty-state img.empty-icon {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.empty-state h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.empty-state p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.empty-state .btn {
+  font-size: 16px;
+  padding: 10px 20px;
+}
