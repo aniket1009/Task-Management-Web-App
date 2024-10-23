@@ -8,11 +8,8 @@ This is a task management application that allows users to create, update, delet
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
 - [API Endpoints](#api-endpoints)
-- [Database Schema](#database-schema)
-- [Authentication](#authentication)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Installation](#Installation)
+- [Environment Variables](#environment-variables)
 
 ## Features
 - Create, read, update, and delete tasks.
@@ -39,7 +36,7 @@ This is a task management application that allows users to create, update, delet
 
 ### Navigate to the backend directory
 1. Add this command
-   ```bash
+   ```bashI
      cd task-manager
 
 ### Install dependencies:
@@ -107,6 +104,7 @@ This is a task management application that allows users to create, update, delet
 ```
 
 ## DELETE /tasks/:id: Delete a task by ID
+
 
 # Environment Variables
 - ' GOOGLE_APPLICATION_CREDENTIALS ': Path to Firebase service account JSON
