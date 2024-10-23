@@ -20,7 +20,6 @@ This is a task management application that allows users to create, update, delet
 - **Frontend:** React, Axios, React Router
 - **Backend:** Node.js, Express, Firebase
 - **Database:** Firestore
-- **Deployment:** Render (for backend), Netlify (for frontend)
 
 ## Setup Instructions
 
@@ -107,9 +106,9 @@ This is a task management application that allows users to create, update, delet
 
 
 # Environment Variables
-- ' GOOGLE_APPLICATION_CREDENTIALS ': Path to Firebase service account JSON
-- ' ALLOWED_ORIGIN ': Frontend URL for CORS
-- ' PORT ': Port on which the backend runs
-- ' REACT_APP_API_URL ': API URL for the frontend
+- > GOOGLE_APPLICATION_CREDENTIALS: Path to Firebase service account JSON
+- > ALLOWED_ORIGIN: Frontend URL for CORS
+- > PORT: Port on which the backend runs
+- > REACT_APP_API_URL: API URL for the frontend
 
 
