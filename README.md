@@ -102,17 +102,35 @@ This is a task management application that allows users to create, update, delet
 }
 ```
 
-## DELETE /tasks/:id: Delete a task by ID
+### DELETE /tasks/:id: Delete a task by ID
 
 
-# Environment Variables
+## Environment Variables
 - > GOOGLE_APPLICATION_CREDENTIALS: Path to Firebase service account JSON
 - > ALLOWED_ORIGIN: Frontend URL for CORS
 - > PORT: Port on which the backend runs
 - > REACT_APP_API_URL: API URL for the frontend
 
 
-![This is the interface.](Web app images\Add New Task.png)
+
+
+ ## ⁕ This is Task-Manager-Web-Application model
+![Add New Task](https://github.com/user-attachments/assets/7ab76094-4e64-4508-9356-8e62b73b9097)
+
+
+
+
+- ### Collection of the tasks
+![Task Manager ](https://github.com/user-attachments/assets/91bbf37b-358f-4f5a-b473-b35c5837d10d)
+
+
+
+- ### You Can edit any task
+![Edit Task](https://github.com/user-attachments/assets/fa75d935-5502-4695-8f86-9bcf2b214f2e)
+
+
+- ### you can also delete and edit the task 
+![Edit or delete task](https://github.com/user-attachments/assets/bce795da-4dd2-4ad0-bdb1-ba862e9f796a)
 
 
 
